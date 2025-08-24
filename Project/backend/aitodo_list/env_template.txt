@@ -1,0 +1,21 @@
+# Supabase Database Configuration
+# Copy this content to a .env file and fill in your actual Supabase credentials
+
+SUPABASE_HOST=your_supabase_host_here
+SUPABASE_PORT=5432
+SUPABASE_NAME=your_database_name_here
+SUPABASE_USER=your_database_user_here
+SUPABASE_PASSWORD=your_database_password_here
+
+# Example format for Supabase:
+# SUPABASE_HOST=db.your-project-ref.supabase.co
+# SUPABASE_PORT=5432
+# SUPABASE_NAME=postgres
+# SUPABASE_USER=postgres
+# SUPABASE_PASSWORD=your_database_password
+
+# To get these values:
+# 1. Go to your Supabase project dashboard
+# 2. Navigate to Settings > Database
+# 3. Copy the connection string or individual values
+# 4. Replace the placeholder values above with your actual credentials
